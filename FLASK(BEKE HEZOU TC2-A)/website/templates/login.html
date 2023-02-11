@@ -1,0 +1,25 @@
+{% extends "base.html" %} {% block title %}Login{% endblock %} {% block content
+    %}
+    <br><br><br>
+    <link rel="stylesheet" href="static/Styles.css">
+    <form method="POST">
+      <h2 align="center">Login</h2>
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="Enter email"
+        />
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input  type="password" class="form-control" id="password"  name="password"  placeholder="Enter password"
+        />
+      </div>
+      <br />
+      <label>
+        <input type="checkbox"> Se rappeler de moi
+      </label>
+      <br>
+      <center><button type="submit" class="btn btn-primary">Login</button></center>
+      <p> inscription rapide : <a href="/sign-up"  class="se_coonecterBtn" >s'inscrire</a></p> 
+    </form>
+    {% endblock %}

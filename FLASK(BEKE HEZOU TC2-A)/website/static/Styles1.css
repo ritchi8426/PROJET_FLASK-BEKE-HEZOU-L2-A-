@@ -1,0 +1,155 @@
+html{
+    scroll-behavior: inherit;
+}
+.img9{
+    font-size: 7x;
+}
+body{
+    background-color: rgb(32, 27, 84);
+}
+body{
+
+    padding: 0;
+    margin: 0;
+}
+nav h1{
+    font-family:Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+    border: bottom 5px solid rgba(202, 203, 216, 0.333);
+}
+header h1{
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+nav h1{
+    color: black;
+    font-size: 30px;
+
+}
+
+nav .onglets a{
+    text-decoration: none;
+    color: rgb(16, 16, 16);
+    margin-right: 10px;
+    border-bottom: 1px solid #c90303;
+    padding-bottom: 5px;
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 300px;
+}
+nav{
+    color: #c90303;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:url("im2.jpg");
+    background-size: cover;
+    color: rgb(224, 231, 238);
+    padding: 200px;
+}
+@media screen and (max-width :700px){
+    nav.onglets{
+        margin-left: 0px;
+        margin-bottom: 20px;
+
+    }
+    .main .card{
+        margin :10px;
+    }
+    .main .card .right .img{
+        height:  200px;
+        width: 100%;
+        margin-top: 0px;
+
+    }
+    .main .content .card{
+        display: block;
+    }
+    footer{
+        padding: 30px
+        ;
+    }
+}
+
+ img{
+    height: 300px;
+    width: 400px;
+    
+
+}
+ .main{
+    flex-direction: column;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+
+}
+.main .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.main .content .card .left{
+    padding: 20px;
+    flex: 0 0  30%;
+    background: black;
+    color: aliceblue;
+}
+.main .content .card.right{
+    flex: 0 0  70%;
+}
+h1{
+    color: aliceblue;
+
+}
+p{
+    color: aliceblue;
+}
+footer{
+    margin-top: 20px;
+    border-top: 5px solid #080808;
+    background-color: #080808;
+    color: #ffff;
+    padding: 30px 100px;
+
+}
+footer .services{
+    margin-top: 8px;
+    display: flex;
+    flex-wrap:wrap;
+}
+footer .services.service{
+    margin-right: 30px;
+    padding:50px;
+
+}
+footer .services .service p{
+ max-width: 300px;
+    
+}
+footer h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 1px solid #ffff ;
+    width: 30%;
+}
+footer #contacts{
+    color:rgb(181,181,181)
+}
+nav{
+    align-items: center;
+}
+img{
+    scroll-behavior: unset;
+}
